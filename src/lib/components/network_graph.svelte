@@ -88,11 +88,9 @@
   }
 
   function setupEvents(network) {
-    network.on('click', async function (params) {
+    network.on('click', async function (params) {});
+    network.on('doubleClick', async function (params) {
       await updateGraph(params);
-    });
-    network.on('doubleClick', function (params) {
-      // TODO: click twice to open wikidata link
     });
   }
 </script>
