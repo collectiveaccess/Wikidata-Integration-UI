@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="icon" href="/Wikidata-Integration-UI/favicon.png" />
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-security-policy" content="">
+	<link rel="stylesheet" href="/Wikidata-Integration-UI/_app/immutable/assets/pages/__layout.svelte-d48de065.css">
+	<link rel="stylesheet" href="/Wikidata-Integration-UI/_app/immutable/assets/pages/compare_sources_graph.svelte-2a7d369d.css">
+	<link rel="stylesheet" href="/Wikidata-Integration-UI/_app/immutable/assets/network_graph-37fe0b2b.css">
+	<link rel="modulepreload" href="/Wikidata-Integration-UI/_app/immutable/start-a59a2e42.js">
+	<link rel="modulepreload" href="/Wikidata-Integration-UI/_app/immutable/chunks/index-453b8584.js">
+	<link rel="modulepreload" href="/Wikidata-Integration-UI/_app/immutable/chunks/paths-396f020f.js">
+	<link rel="modulepreload" href="/Wikidata-Integration-UI/_app/immutable/pages/__layout.svelte-96d9b9ad.js">
+	<link rel="modulepreload" href="/Wikidata-Integration-UI/_app/immutable/pages/compare_sources_graph.svelte-7211949a.js">
+	<link rel="modulepreload" href="/Wikidata-Integration-UI/_app/immutable/chunks/network_graph-26e513bc.js">
+  </head>
+  <div class="container">
+
+
+<nav class="navbar svelte-1jon02n" aria-label="main navigation"><div class="navbar-menu is-active"><a href="/Wikidata-Integration-UI/" class="navbar-item">Home</a>
+    <a href="/Wikidata-Integration-UI/compare_sources_graph" class="navbar-item">Compare Sources</a></div></nav>
+
+<section class="main svelte-1jon02n"><h1 class="title is-1">Compare Data Sources</h1>
+<div class="columns"><div class="column is-one-third explorer-menu svelte-klnrpk"><div class="field svelte-klnrpk"><div class="menu-type svelte-klnrpk">Data Source</div>
+
+      <label class="radio"><input type="radio" name="property_type" value="Wikidata" class="svelte-klnrpk" checked>Wikidata
+      </label><br>
+
+      <label class="radio"><input type="radio" name="property_type" value="BAM" class="svelte-klnrpk">BAM
+      </label><br>
+
+      <label class="radio"><input type="radio" name="property_type" value="Jacobs Pillow" class="svelte-klnrpk">Jacob&#39;s Pillow
+      </label><br>
+
+      <label class="radio"><input type="radio" name="property_type" value="No Boundaries" class="svelte-klnrpk">No
+        Boundaries
+      </label><br>
+
+      <label class="radio"><input type="radio" name="property_type" value="All" class="svelte-klnrpk">All
+      </label><br></div></div>
+  <div class="column is-two-thirds explorer-graph svelte-klnrpk"><main class="svelte-dt5x0l">
+
+  
+    0 records, 0 relationships
+  <div id="mynetwork" class="svelte-dt5x0l"></div>
+
+  <table class="table svelte-dt5x0l"><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5244936">De la Torre Bueno Prize</a></td>
+          <td>winner</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q4960669">Brenda Dixon Gottschild</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q4960669">Brenda Dixon Gottschild</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7179538">Pew Fellowship in the Arts</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7341937">Robert Battle</a></td>
+          <td>employer</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q449026">Alvin Ailey American Dance Theater</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7341937">Robert Battle</a></td>
+          <td>student of</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5753320">Carolyn Adams</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7341937">Robert Battle</a></td>
+          <td>educated at</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7012591">New World School of the Arts</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7341937">Robert Battle</a></td>
+          <td>employer</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q3896513">Parsons Dance Company</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7341937">Robert Battle</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q105193322">honorary doctor of Fordham University</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7341937">Robert Battle</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q11415564">honorary doctorate</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7341937">Robert Battle</a></td>
+          <td>educated at</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q503246">Juilliard School</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7341937">Robert Battle</a></td>
+          <td>student of</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5217931">Daniel Lewis</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7341937">Robert Battle</a></td>
+          <td>student of</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q4888769">Benjamin Harkarvy</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7313336">Rennie Harris</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7179538">Pew Fellowship in the Arts</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7313336">Rennie Harris</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q1316544">Guggenheim Fellowship</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7313336">Rennie Harris</a></td>
+          <td>academic appointment</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q106486590">University of Colorado Boulder Department of Theatre &amp; Dance</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7313336">Rennie Harris</a></td>
+          <td>work location</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q192517">Boulder</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7313336">Rennie Harris</a></td>
+          <td>employer</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q736674">University of Colorado Boulder</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q81593282">Donald McKayle, 87, Broadway and Modern Dance Choreographer, Dies</a></td>
+          <td>main subject</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5294846">Donald McKayle</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5294846">Donald McKayle</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q18585386">Martha Hill Lifetime Achievement Award</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5294846">Donald McKayle</a></td>
+          <td>educated at</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5244175">DeWitt Clinton High School</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5294846">Donald McKayle</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q29032885">Capezio Dance Award</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q1146114">Sophisticated Ladies</a></td>
+          <td>librettist</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5294846">Donald McKayle</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5294846">Donald McKayle</a></td>
+          <td>nominated for</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q377293">Tony Award for Best Direction of a Musical</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5294846">Donald McKayle</a></td>
+          <td>employer</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q868421">University of California, Irvine</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6166129">Jawole Willa Jo Zollar</a></td>
+          <td>educated at</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q940690">University of Missouri–Kansas City</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6166129">Jawole Willa Jo Zollar</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q1316544">Guggenheim Fellowship</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6166129">Jawole Willa Jo Zollar</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q29032885">Capezio Dance Award</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6166129">Jawole Willa Jo Zollar</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q2899916">Bessie Award</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q16973731">Dianne McIntyre</a></td>
+          <td>student</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6166129">Jawole Willa Jo Zollar</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6166129">Jawole Willa Jo Zollar</a></td>
+          <td>educated at</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q861548">Florida State University</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6166129">Jawole Willa Jo Zollar</a></td>
+          <td>employer</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q861548">Florida State University</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q3326919">Movement (R)evolution Africa</a></td>
+          <td>cast member</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6166129">Jawole Willa Jo Zollar</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6166129">Jawole Willa Jo Zollar</a></td>
+          <td>student of</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q16973731">Dianne McIntyre</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6166129">Jawole Willa Jo Zollar</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q1543268">MacArthur Fellows Program</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6451024">Kyle Abraham</a></td>
+          <td>educated at</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q4359408">State University of New York at Purchase</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6451024">Kyle Abraham</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q52382875">Fellow of the American Academy of Arts and Sciences</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6451024">Kyle Abraham</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q1543268">MacArthur Fellows Program</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6451024">Kyle Abraham</a></td>
+          <td>employer</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q174710">University of California, Los Angeles</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6451024">Kyle Abraham</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q22080781">Doris Duke Performing Artist Award</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q6451024">Kyle Abraham</a></td>
+          <td>educated at</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q797078">New York University Tisch School of the Arts</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q17182563">Leading Ladies</a></td>
+          <td>director</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q117862235">Daniel Beahm</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q86095846">David Roussève</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q1316544">Guggenheim Fellowship</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q86095846">David Roussève</a></td>
+          <td>employer</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q174710">University of California, Los Angeles</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q86095846">David Roussève</a></td>
+          <td>educated at</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q21578">Princeton University</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q86095846">David Roussève</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q28911895">National Endowment for the Arts Fellowship</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q86095846">David Roussève</a></td>
+          <td>professorship</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q121594">professor</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q86095846">David Roussève</a></td>
+          <td>academic appointment</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q105970036">UCLA Department of World Arts and Cultures/Dance</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q106584840">Jaamil Olawale Kosoko</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7179538">Pew Fellowship in the Arts</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q4878310">Bebe Miller</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q1316544">Guggenheim Fellowship</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q4878310">Bebe Miller</a></td>
+          <td>educated at</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q5326502">Earlham College</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q116182819">Markas Henry</a></td>
+          <td>academic appointment</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q106486590">University of Colorado Boulder Department of Theatre &amp; Dance</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q116182819">Markas Henry</a></td>
+          <td>work location</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q192517">Boulder</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q116182819">Markas Henry</a></td>
+          <td>employer</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q736674">University of Colorado Boulder</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q107425418">Reggie Wilson</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q1316544">Guggenheim Fellowship</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7308333">Reggie Wilson/Fist and Heel Performance Group</a></td>
+          <td>founded by</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q107425418">Reggie Wilson</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q16973731">Dianne McIntyre</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q1316544">Guggenheim Fellowship</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q250954">Beloved</a></td>
+          <td>cast member</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q16973731">Dianne McIntyre</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7287790">Ralph Lemon</a></td>
+          <td>educated at</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7971448">Washburn High School</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7287790">Ralph Lemon</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q999898">Bucksbaum Award</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7287790">Ralph Lemon</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q1543268">MacArthur Fellows Program</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7287790">Ralph Lemon</a></td>
+          <td>educated at</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q238101">University of Minnesota</a></td>
+        </tr><tr><td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q7287790">Ralph Lemon</a></td>
+          <td>award received</td>
+          <td><a href="https://dancing-digital.wikibase.cloud/wiki/Item:Q1316544">Guggenheim Fellowship</a></td>
+        </tr></table>
+</main></div>
+</div>
+</section>
+
+
+		<script type="module" data-sveltekit-hydrate="1f2x43h">
+		import { start } from "/Wikidata-Integration-UI/_app/immutable/start-a59a2e42.js";
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="1f2x43h"]').parentNode,
+			paths: {"base":"/Wikidata-Integration-UI","assets":"/Wikidata-Integration-UI"},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [0, 2],
+				params: {},
+				routeId: "compare_sources_graph"
+			}
+		});
+	</script></div>
+</html>
