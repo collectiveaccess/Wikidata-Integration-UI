@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-598ce6e0.js",
+    "file": "start-8ae031c2.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-453b8584.js",
+      "_index-ef7e113d.js",
       "_paths-396f020f.js"
     ],
     "dynamicImports": [
@@ -16,12 +16,12 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-96d9b9ad.js",
+    "file": "pages/__layout.svelte-d7ab41b8.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-453b8584.js",
+      "_index-ef7e113d.js",
       "_paths-396f020f.js"
     ],
     "css": [
@@ -29,61 +29,68 @@
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-f60b85f6.js",
+    "file": "error.svelte-fa04654a.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-453b8584.js"
+      "_index-ef7e113d.js"
     ]
   },
   "src/routes/compare_sources_graph.svelte": {
-    "file": "pages/compare_sources_graph.svelte-787d398c.js",
+    "file": "pages/compare_sources_graph.svelte-7693cfd7.js",
     "src": "src/routes/compare_sources_graph.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-453b8584.js",
-      "_network_graph-26e513bc.js"
+      "_index-ef7e113d.js",
+      "_network_graph-623f61e6.js"
     ],
     "css": [
       "assets/pages/compare_sources_graph.svelte-2a7d369d.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-5663c332.js",
+    "file": "pages/index.svelte-cbc1c49d.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-453b8584.js",
-      "src/routes/search_graph.svelte",
-      "_network_graph-26e513bc.js"
+      "_index-ef7e113d.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-437e995d.css"
+    ],
+    "assets": [
+      "assets/ADHClogo-aabbac37.png",
+      "assets/CapstoneALogo-Dept.TheatreDance-15a850f2.jpg",
+      "assets/NEH-Preferred-Seal-3584ff10.jpg",
+      "assets/whirlLogo-0429e18c.jpg"
     ]
   },
   "src/routes/search_graph.svelte": {
-    "file": "pages/search_graph.svelte-5dc72e93.js",
+    "file": "pages/search_graph.svelte-19ea04f8.js",
     "src": "src/routes/search_graph.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-453b8584.js",
-      "_network_graph-26e513bc.js"
+      "_index-ef7e113d.js",
+      "_network_graph-623f61e6.js"
     ],
     "css": [
       "assets/pages/search_graph.svelte-4eab2fbb.css"
     ]
   },
-  "_index-453b8584.js": {
-    "file": "chunks/index-453b8584.js"
+  "_index-ef7e113d.js": {
+    "file": "chunks/index-ef7e113d.js"
   },
   "_paths-396f020f.js": {
     "file": "chunks/paths-396f020f.js"
   },
-  "_network_graph-26e513bc.js": {
-    "file": "chunks/network_graph-26e513bc.js",
+  "_network_graph-623f61e6.js": {
+    "file": "chunks/network_graph-623f61e6.js",
     "imports": [
-      "_index-453b8584.js"
+      "_index-ef7e113d.js"
     ],
     "css": [
       "assets/network_graph-37fe0b2b.css"
